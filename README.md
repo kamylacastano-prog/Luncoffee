@@ -57,10 +57,13 @@ Deficiente e ineficiente sistema actual de gestión de ventas, caja e inventario
 
 - **Falta de trazabilidad y datos fiables para la toma de decisiones administrativas en el área de economato y gestión de producción.**
 
+---
 
-### ☕ Historias de Usuario 
+## ☕ Historias de Usuario 
 
 Este documento contiene la especificación de Historias de Usuario (HU) estructuradas para el desarrollo del software del punto de venta.
+
+---
 
 ---
 
