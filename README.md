@@ -59,7 +59,7 @@ Deficiente e ineficiente sistema actual de gestión de ventas, caja e inventario
 
 ---
 
-## ☕ Historias de Usuario 
+## 1️⃣4️⃣ Historias de Usuario 
 
 Este documento contiene la especificación de Historias de Usuario (HU) estructuradas para el desarrollo del software del punto de venta.
 
