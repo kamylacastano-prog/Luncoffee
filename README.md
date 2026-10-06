@@ -19,7 +19,7 @@ Deficiente e ineficiente sistema actual de gestión de ventas, caja e inventario
 
  - **Herramienta operativa limitada e inalterable: Uso de un libro de Excel elemental y bloqueado para el registro de ventas.**
 
- - **Proceso de validación de pagos lento e ineficiente: Verificación manual de pagos por transferencia (QR / Bre-B) mediante captura de fotos.**
+ - **Proceso de validación de pagos lento: Verificación manual de pagos por transferencia (QR / Bre-B) mediante captura de fotos.**
 
  - **Ausencia de un control de inventarios automatizado: Inexistencia de un sistema que descuente automáticamente insumos según las ventas realizadas.**
 
@@ -49,4 +49,11 @@ Deficiente e ineficiente sistema actual de gestión de ventas, caja e inventario
  - **Vulnerabilidad en la seguridad del sistema: Riesgo de alteraciones indebidas en las ventas o eliminaciones sin autorización de administradores/supervisores.**
 
  - **Dificultad para coordinar distintas sedes/módulos: Problemas al adaptar la misma herramienta a dinámicas variadas (ej. gestión de mesas en El Vagón vs. atención de barra en Don Bosco).**
+
+**Efectos Indirectos / Impacto Final (Nivel 2):**
+- **Pérdida de eficiencia académica y productiva en los ambientes de formación real.**
+
+- **Inconformidad de los clientes (estudiantes y usuarios) por filas largas e ineficiencia en el servicio.**
+
+- **Falta de trazabilidad y datos fiables para la toma de decisiones administrativas en el área de economato y gestión de producción.**
 
