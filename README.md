@@ -9,26 +9,44 @@ La cafetería del SENA presenta dificultades en la gestión de inventarios, vent
 ## **Justificacion**
 El desarrollo de este proyecto permitirá modernizar la gestión administrativa de la cafetería mediante la implementación de un sistema de información. Se espera reducir errores en los registros, optimizar el control del inventario, agilizar la atención al cliente y mejorar la administración de los recursos. Además, el proyecto fortalecerá las competencias adquiridas durante la formación en Análisis y Desarrollo de Software.
 
-### 🌳 **Arbol de problemas**  
+## 🌳 **Arbol de problemas**  
 
-1️⃣ Problema Central (Tronco)
-```sh
+### 1️⃣ Problema Central (Tronco)
 Deficiente e ineficiente sistema actual de gestión de ventas, caja e inventarios en los puntos de producción (Don Bosco, El Vagón y La Cafetería).
-```
 
-2️⃣ Causas (Raíces)
+### 2️⃣ Causas (Raíces)
 **Causas Directas (Nivel 1):**  
-  ```sh
- - Herramienta operativa limitada e inalterable: Uso de un libro de Excel elemental y bloqueado para el registro de ventas.
 
-Proceso de validación de pagos lento e ineficiente: Verificación manual de pagos por transferencia (QR / Bre-B) mediante captura de fotos.
+ - **Herramienta operativa limitada e inalterable: Uso de un libro de Excel elemental y bloqueado para el registro de ventas.**
 
- Ausencia de un control de inventarios automatizado: Inexistencia de un sistema que descuente automáticamente insumos según las ventas realizadas.
+ - **Proceso de validación de pagos lento e ineficiente: Verificación manual de pagos por transferencia (QR / Bre-B) mediante captura de fotos.**
 
- Falta de integración y automatización en el flujo de pedidos: Comunicación verbal/manual de los pedidos entre la caja y la zona de preparación (baristas/cocina).
+ - **Ausencia de un control de inventarios automatizado: Inexistencia de un sistema que descuente automáticamente insumos según las ventas realizadas.**
 
- Gestión inflexible de productos y precios de panadería: Dificultad para actualizar diariamente el menú variable y los costos cambiantes de la producción académica.
-  ```
+ - **Falta de integración y automatización en el flujo de pedidos: Comunicación verbal/manual de los pedidos entre la caja y la zona de preparación (baristas/cocina).**
 
-deactivate
-```
+ - **Gestión inflexible de productos y precios de panadería: Dificultad para actualizar diariamente el menú variable y los costos cambiantes de la producción académica.**
+   
+**Causas Indirectas (Nivel 2):**
+ - **La plantilla de Excel actual no permite modificar celdas por estar bloqueada, impidiendo ajustar precios o insumos que cambian con frecuencia.**
+
+ - **Rotación constante del personal (3 cajeros por día, aprendices y pasantes) que genera demoras al reingresar datos repetidos (ej. nombre del cajero por transacción).**
+
+ - **Inexistencia de un sistema de comandas automáticas que envíe la orden a preparación de forma simultánea al pago.**
+
+ - **Falta de recetas estándar integradas al software para el descuento en tiempo real de insumos clave (café, leche, azúcar, empaques).**
+
+ - **Ausencia de alertas automáticas para el reabastecimiento por punto de stock mínimo.**
+   
+### 3️⃣ Efectos y Consecuencias (Ramas y Hojas)
+**Efectos Directos (Nivel 1):**
+ - **Demoras y cuellos de botella en la atención al cliente: Tiempos de espera prolongados mientras se valida la transacción por QR o se busca el producto en la lista de Excel.**
+
+ - **Reprocesos operativos en los cierres de caja: Inconsistencias al revisar fotos de comprobantes e imprimir tirillas para conciliar las ventas diarias de los tres turnos.**
+
+ - **Riesgo de desabastecimiento de insumos: Posibilidad de quedarse sin stock crítico por falta de un sistema preventivo de alertas de inventario.**
+
+ - **Vulnerabilidad en la seguridad del sistema: Riesgo de alteraciones indebidas en las ventas o eliminaciones sin autorización de administradores/supervisores.**
+
+ - **Dificultad para coordinar distintas sedes/módulos: Problemas al adaptar la misma herramienta a dinámicas variadas (ej. gestión de mesas en El Vagón vs. atención de barra en Don Bosco).**
+
