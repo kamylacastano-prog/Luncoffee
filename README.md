@@ -59,7 +59,83 @@ Deficiente e ineficiente sistema actual de gestión de ventas, caja e inventario
 
 ---
 
-## 1️⃣4️⃣ Historias de Usuario 
+## 🌳 Árbol de Objetivos
+
+### 1️⃣ Objetivo Central (Tronco)
+* Implementar un sistema de información eficiente y automatizado para la gestión de ventas, caja e inventarios en los puntos de producción de la cafeterias.
+
+### 2️⃣ Medios / Alternativas de Solución (Raíces)
+
+#### Medios Directos:
+* **Sustitución del sistema actual:** Desplegar un software amigable, flexible y configurable en reemplazo del archivo de Excel elemental y bloqueado.
+* **Agilización de pagos:** Automatizar la validación y registro de pagos digitales por transferencias registrando el código/dígito de comprobante.
+* **Control de stock automático:** Implementar un control de inventarios automatizado que descuente materias primas en tiempo real mediante recetas estándar.
+* **Integración de pedidos:** Integrar la emisión de comandas automáticas a la zona de preparación (barra/cocina) de forma simultánea al cobro.
+* **Menú dinámico:** Habilitar un módulo de creación y modificación dinámica de productos y precios diarios para la oferta variable de panadería.
+
+#### Medios Indirectos:
+* Interfaz intuitiva que permita actualizar catálogo y tarifas sin requerir modificaciones en código o celdas protegidas.
+* Asignación automática del cajero activo en turno para agilizar el flujo ante la rotación de aprendices y pasantes.
+* Configuración de impresoras independientes en la zona de producción para recibir comandas sin depender de comunicación verbal.
+* Vinculación de recetas estándar de bebidas (gramos de café, mililitros de leche, salsa, azúcar) al catálogo.
+* Sistema de notificaciones en pantalla por stock mínimo.
+
+### 3️⃣ Fines e Impactos Positivos (Ramas y Hojas)
+
+#### Fines Directos:
+* **Reducción de tiempos de espera:** Agilización en la atención al cliente y eliminación de filas en horas pico.
+* **Precisión operativa:** Conciliación y cierre de caja rápido y preciso al finalizar los turnos.
+* **Prevención de desabastecimiento:** Alertas preventivas de stock mínimo para evitar desabastecimiento de insumos clave.
+* **Seguridad y auditoría:** Control de acceso basado en roles que prevenga eliminaciones no autorizadas.
+* **Adaptabilidad:** Flexibilidad para configurar módulos según la sede (ej. gestión de mesas en *El Vagón* vs. venta rápida de barra en *Don Bosco*).
+
+#### Fines Indirectos / Impacto Final :
+* Optimización de la eficiencia académica y operativa en los ambientes de formación real del SENA.
+* Mayor satisfacción de los usuarios (estudiantes, instructores y visitantes).
+* Disponibilidad de datos e informes fiables para la toma de decisiones en el economato y la administración general.
+
+---
+
+## 🎯 Objetivo General
+
+Diseñar, desarrollar e implementar un sistema de información web/escritorio (POS e inventarios) para las cafeterias, que optimice y automatice los procesos de ventas, control de caja, gestión de inventarios por recetas estándar y comandas en sus diferentes centros de producción.
+
+---
+
+## 📌 Objetivos Específicos
+
+1. **Módulo POS y Facturación Ágil:** Diseñar una interfaz táctil en cuadrícula optimizada para el registro de ventas sin efectivo (pagos por transferencia), asignando automáticamente el cajero activo por turno.
+2. **Gestión de Comandas Independientes:** Habilitar el envío simultáneo de la orden a la zona de preparación (barra/cocina) de forma paralela o previa a la validación del pago.
+3. **Inventarios con Recetas Estándar:** Automatizar el descuento de insumos (café, leche, azúcar, empaques) en tiempo real al vender bebidas estandarizadas e integrar el ingreso directo por unidades para productos de panadería y repostería variable.
+4. **Alertas de Stock Mínimo y Entradas:** Permitir la notificación preventiva en pantalla cuando un insumo alcance su límite crítico y registrar el ingreso de materias primas provenientes del economato.
+5. **Cierres de Caja por Turnos:** Automatizar la generación de reportes e impresión de tirillas de cierre para los tres turnos de atención diaria (8:00 am–12:00 pm, 12:00 pm–4:00 pm y 4:00 pm–8:00 pm), desglosando ventas por cajero y plataforma de pago.
+6. **Seguridad y Adaptabilidad Modular:** Implementar control de acceso basado en roles (Cajero/Aprendiz vs. Administrador/Supervisor) con autorización para anulaciones, así como la habilitación/deshabilitación modular de funciones según el punto operativo.
+
+---
+
+## 📐 Alcance del Proyecto
+
+### Detalle del Alcance
+
+#### Funcionalidades Incluidas:
+* **Módulo POS Táctil:** Interfaz amigable para la selección rápida de productos y cantidades, con soporte de hasta 3 cierres de caja al día y asignación dinámica del cajero activo.
+* **Módulo de Comandas Independientes:** Envío automático de comandas a la zona de preparación (vía impresora térmica o pantalla de producción) de forma paralela al cobro.
+* **Módulo de Métodos de Pago Digitales:** Registro exclusivo de transferencias mediante la infraestructura *Bre-B / QR* (Nequi, Bancolombia, Nu, Banco de Bogotá, Davivienda, etc.), incluyendo un campo obligatorio para registrar el código/dígito del comprobante de transferencia.
+* **Módulo de Inventario Dinámico y Recetas Estándar:** Descuento automático proporcional de insumos según recetas estándar para bebidas e ingreso directo por unidades para productos de producción académica variable en panadería/repostería.
+* **Control de Stock Mínimo y Entradas:** Alerta en pantalla al alcanzar el nivel crítico de insumos y formulario para el ingreso de requisiciones o materias primas.
+* **Seguridad y Roles de Usuario:** Restricción estricta de permisos para que el perfil "Cajero" no pueda borrar ni anular ventas sin autorización o clave del perfil "Administrador".
+* **Configuración Modular por Sede:** Funcionalidad para activar o desactivar módulos según el centro operativo (ej. activar gestión de hasta 15 mesas en *El Vagón* o desactivarla para atención exclusiva en barra en *Don Bosco*).
+* **Módulo opcional de Clientes:** Formulario de consulta/registro rápido de clientes por cédula para recolección de datos analíticos.
+
+#### Exclusiones del Sistema:
+* **Pagos en efectivo:** El software omite totalmente la opción de cobro físico o gestión de dinero en efectivo por políticas institucionales de la cafetería.
+* **Inventario de insumos de producción académica en aulas:** No se controlarán los ingredientes crudos (harina, levadura, mantequilla) utilizados dentro de los talleres de formación de panadería.
+* **Facturación electrónica DIAN / Impuestos complejos:** No se incluyen retenciones ni liquidación de IVA, ya que corresponde a un modelo simplificado de venta interna en ambiente de aprendizaje.
+* **Servicio de domicilios o pedidos externos:** El sistema está acotado exclusivamente a la venta presencial dentro de las instalaciones y sedes del SENA.
+
+---
+
+## Historias de Usuario 
 
 Este documento contiene la especificación de Historias de Usuario (HU) estructuradas para el desarrollo del software del punto de venta.
 
